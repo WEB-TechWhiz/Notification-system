@@ -1,26 +1,16 @@
-Final Summary Table (Ascending → Descending Difficulty)
-Rank	Notification System Type	Difficulty	Notes
+# 🔔 Multi-Channel Notification Router
 
-1	In-App Notifications	⭐	  UI only
+A microservice architecture implementing strategies to route notifications through multiple channels: **In-App Alerts, Email SMTP dispatching, and SMS providers**.
 
-2	Email Notifications	  ⭐⭐	Templates + SMTP
+---
 
-3	SMS Notifications	 ⭐⭐	    Cost + regulations
+## ⚡ Channels Implemented
+1. **In-App Notifications**: Lightweight, UI-only alerts triggered and cataloged in a local state store.
+2. **Email Dispatcher**: Integrates SMTP settings with custom handlebars templates for dynamic emails.
+3. **SMS Alerts**: Integration skeletons for Twilio and other major SMS providers.
 
-4	Push Notifications	⭐⭐⭐	   Token management
+---
 
-5	Webhooks	        ⭐⭐⭐	    Security, retries
-
-6	Real-time (Sockets)	⭐⭐⭐⭐   Scaling sockets
-
-7	Event-driven (Pub/Sub) ⭐⭐⭐⭐ Distributed flow
-
-8	Multi-channel System	⭐⭐⭐⭐	Routing + fallback
-
-9	Digest/Aggregator	⭐⭐⭐⭐⭐	Batching logic
-
-10	Microservices Notification System	⭐⭐⭐⭐⭐	Multi-service scaling
-
-11	Orchestration Platform	⭐⭐⭐⭐⭐⭐	Workflows + rules
-
-12	Hyper-scale System	⭐⭐⭐⭐⭐⭐⭐	Global, distributed
+## 📁 Repository Map
+* **`In-App-Notification/`**: Layout component files for rendering alerts in client applications.
+* **`Readme.MD`**: Summary details and notification setups.
